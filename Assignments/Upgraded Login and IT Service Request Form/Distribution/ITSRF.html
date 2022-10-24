@@ -172,7 +172,42 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Input the full description of the service"></textarea>
                       </div>  
                 </div>
+
+                <div class="input-group mb-3">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                  </div>
+
             </fieldset>
+
+            <fieldset>
+            <div class="mb-4">
+                <!-- Button trigger modal -->
+                <button type="reset" class="btn btn-secondary inline">Clear</button>
+                <button type="button" class="btn btn-secondary inline" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Submit
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Success!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Thanks for submitting your request.
+                        </div>
+                        <div class="modal-footer">
+                        <a href="Login.html" target="_blank"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </fieldset>  
         </form>
     </div>
 
