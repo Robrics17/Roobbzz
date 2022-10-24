@@ -1,0 +1,33 @@
+header {
+    background-color: bisque;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    padding: auto;
+}
+
+form {
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+fieldset {
+    padding: 50px;
+}
+
+legend {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
