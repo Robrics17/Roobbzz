@@ -1,41 +1,15 @@
 body {
-  background-image: url(../Images/background1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-}
+    background-image: url(../Images/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
 
-.searchbar {
-  margin-top: 13px;
-  margin-bottom: 0;
-  margin-right: 50px;  
-  
-  
-}
+  .loginpage {
+    margin-left: 300px;
+  }
 
-.card {   
-
-}
-
-/* Top 5 Picks Styling */
-
-.razerkishiv2 {
- 
-}
-
-.gamingchair {
-  padding: 30px 0 30px 0;
-  width: auto;
-  height: auto;
-}
-
-.samsungs22 {
-  width: auto;
-  height:;
-}
-
-
-/* Media Query*/
+  /* Media Query*/
 /*Mobile Devices*/
 @media screen (min-width: 320px) and (max-width: 480px) {
   
