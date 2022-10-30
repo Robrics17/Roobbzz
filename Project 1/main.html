@@ -19,14 +19,14 @@
   <header>
     <nav class="navbar navbar-expand-lg" style="">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Navbar</a>
+          <a class="navbar-brand" href="./main.html">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="./main.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./menus/about.html">About Us</a>
@@ -54,50 +54,129 @@
 
 
     <!-- Landing Page -->
-    <section>
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
+    <section class="mt-5">
+      <!-- <div class="container-fluid"> -->
+        <!-- <div class="d-flex"> -->
+          <div class="grid-container">
+            <div class="grid-item item1">Hello</div>
+            <div class="grid-item">Hello</div>
+            <div class="grid-item"><img src="./Images/Razer Banner.png" width="2%"  alt=""></div>
           </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
      
     </section>
       
-      
+      <hr class="mx-5">
       <!-- Brands -->
       <section>
-        <h2 class="text-center">Brands</h2>
 
+        <!-- <div class="container-fluid"> -->
+
+           
+            <div class="">
+              <h2 class="text-center">Brands</h2>
+            </div>
+
+        
+            
+
+            <div class="brands container">
+
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./Images/Razer.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./Images/Razer.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Images/Razer.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+
+                <!-- Button Left and Right -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            </div>
+
+        <!-- <div>  -->
       </section>
+
+      <hr class="mx-5">
+
     <!-- Categories -->
-    <section>
+      <section>
+        <h2 class="text-center">Categories</h2>
 
-     <h2 class="text-center">Categories</h2>
+       <div class="container-fluid mx-2">
+         <div class="categories d-flex justify-content-center mb-5" >
+        
+          <div class="catmain rounded-5">
+            <a href="">
+              <img class="cat1"  src="./Images/mobile.webp" alt="">
+              <p class="text-center">Mobile</p>
+            </a>
+          </div>
 
+          <div class="catmain rounded-5">
+            <a href="">
+              <img class="cat2" src="./Images/mouse.webp" alt="">
+              <p class="text-center ">Mouse</p>
+            </a>
+              
+            
+          </div>
+
+          <div class="catmain rounded-5">
+            <a href="">
+              <img class="cat3"  src="./Images/keyboard.png" alt="">
+              <p class="text-center">Keyboard</p>
+            </a>
+          </div>
+
+          <div class="catmain rounded-5">
+            <a href="">
+              <img class="cat4"  src="./Images/portablespeaker.png" alt="">
+              <p class="text-center">Speakers</p>
+            </a>
+          </div>
+
+          <div class="catmain rounded-5">
+            <a href="">
+              <img class="cat5"  src="./Images/webcam.webp" alt="">
+              <p class="text-center">Webcam</p>
+            </a>
+          </div>
+
+          <div class="catmain rounded-5">
+            <a href="">
+              <img class="cat6"  src="./Images/gamingchair.webp" alt="">
+              <p class="text-center">Gaming Chair</p>
+            </a>
+          </div>
+
+          <div class="catmain rounded-5">
+            <a href="">
+              <img class="cat7"  src="./Images/monitor.png" alt="">
+              <p class="text-center">Monitor</p>
+            </a>
+          </div>
+        
+        </div>
+      </div>
     </section> 
 
-   
+   <hr class="mx-5">
 
     <!-- Top 5 Products-->
     <section>
@@ -170,65 +249,60 @@
 
     <!-- -->
     <section>
-      <!--Columns-->
-      <div class="row align-items-center  bg-secondary m-5">
-        <div class="col">
-          <p class="fw-bold text-start">
-            CONTACT US
-          </p>
-          <p>
-              hi
-          </p>
-
-          <p>
-              Contact: 012-345-6789
-          </p>
-
-          <p>
-              <form action="mailto: jellylumactud@gmail.com" method="GET">
-                  <button class="btn btn-warning" type="submit">EMAIL ME</button>
-              </form>
-          </p>
-        </div>
-
-        <!-- News Letter and Social Medias-->
+      <section>
+        <div class="d-flex justify-content-center">
+            <form action="">
+    
+                <div class="mb-3">
+                    <ph class="h5 text-center">Robzz Tech E-Store Newsletter</ph>
+                </div>
+    
+                <div class="form-floating mb-2">
+                    <input type="email" class="form-control" id="newsletter" placeholder="Enter your email address">
+                    <label for="newsletter" class="text-center">Enter your email address</label>
+                </div>
+    
+                <div class="container">
+                    <div class="center">
+    
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Subscribe
+                        </button>
       
-          <div class="col">
-            <div class="col-6">
-              <form action="" class="rounded border border-dark mb-4">
-                <div class="mb-2 mt-2 mx-2">
-                <label for="emailaddress" class="text-center">Robzz Tech E-Store Newsletter</label>
-                <input type="email" class="form-control " id="emailaddress" placeholder="Enter your email address">
-                <p>
-                  <button class="btn">SUBSCRIBE</button>
-                </p>
-              </div>
-              </form>
-            </div>
-
-
-          <div>
-            <p class="text-center">
-              Follow us in Social Networks
-            </p>
-
-            <!-- social medias -->
-            <div class="socmed">
-             <a href="https://www.facebook.com/RobzzTechEStore/"><img src="Images/facebooklogo.png" alt="Facebook"></a>
-
-             <a href="https://www.instagram.com/robzztechestore/"><img src="Images/instagramlogo.png" width="50px" height="50px" alt="Instagram"></a>
-            </div>
-
-            <a href="https://www.instagram.com/robzztechestore/"><img src="Images/twitterlogo.png" width="10%" height="10%" alt="Twitter"></a>
-            </div>
-            
-          </div>
-
-          <div class="row align-items-center">
-            <img src="" alt="">
-          </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content bg-success">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Thank You!</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    You have been registered to our newsletter!
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </form>
         </div>
-      </div>
+          
+        <!-- Social Media -->
+        <div class="socialmedia">
+    
+            <h6 class="text-center">Follow us in Social Networks</h6>
+    
+            <div class="socmedlogo row align-items-center">
+                <img src="" alt="">
+            </div>
+    
+        </div>
     </section>
 
 
