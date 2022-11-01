@@ -5,6 +5,7 @@ body {
   background-size: auto;
 }
 
+
 h2 {
   padding: 10px;
   margin-top: 15px;
@@ -14,33 +15,56 @@ h2 {
 }
 
 
+
+/* Navbar*/
+
+
+
+
 /* Landing Page*/
-.grid-container {
+.landingpage {
   display: grid;
-  grid-template-columns: auto auto ;
-  gap: 10px;
-  background-color: azure;
-  border: 1px dashed red;
-  height:500px;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
 }
 
-.grid-container > div {
-  background-color: rgba(136, 32, 32, 0.8);
+.landingpage > div {
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+}
+
+.carousel {
+    grid-area: 1 / 1 / span 8 / span 3;
+}
+
+.landitem1 {
+  grid-area: 1 / 4 / span 2 / span 2;
+  background-image: url(../Images/christmas.webp);
+  background-size: contain;
+}
+
+.landitem2 {
+  grid-area: 3 / 4 / span 2 / span 2;
+  background-image: url(../Images/christmas.webp);
+  background-size: contain;
+}
+
+
+
+/* Brands */
+.brands {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
 /* Categories */
-
 .catmain {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
   border-color: gray;
   border-style: double;
-
+ 
 }
 
 .catmain:hover {
@@ -94,38 +118,44 @@ h2 {
 
 /* Brands */
 
-.brands {
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* Top 5 Picks Styling */
+
+/* */
+.socmed:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
 
 
 
 /* Media Query*/
 /*Mobile Devices*/
-@media screen (min-width: 320px) and (max-width: 480px) {
-  
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+
 }
 
 /*iPads & Tablets*/
-@media screen (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  
   
 }
 
 /*Small Screens, Laptops*/
-@media screen (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   
 }
 
 /*Desktops, Large Screens*/
-@media screen (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
   
 }
 
 /*Extra Large Screens, TVs*/
-@media screen (min-width: 1201px) {
+@media screen and (min-width: 1201px) {
   
 }
 
