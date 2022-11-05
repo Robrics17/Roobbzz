@@ -28,16 +28,16 @@
 
         <ul class="nav justify-content-end mt-3 mb-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="./main.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="./aboutus.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="./contactus.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link">Products</a>
           </li>
         </ul>
         
@@ -63,10 +63,12 @@
   </header>
 
   <hr class="mx-5">
+
   <!-- Landing Page -->
     <!-- Trial -->
   <section class="mt-4 mx-5">
-    <div class="d-flex justify-content-center"></div>
+    
+    <!-- <div class="d-flex justify-content-center"></div> -->
       <div class="landingpage grid-container">
         <div class="carousel">
           <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -178,26 +180,191 @@
    <hr class="mx-5">
 
     <!-- Top 5 Products-->
-    <section>
+  <section class="mt-4">
+    <div>
       <p class="h3 text-center">
         Top 5 Picks
       </p>
+    </div>
+    
+    <div class="toppicks d-flex justify-content-evenly ">
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/mobile.webp" class="card-img-top mt-2 mb-5" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Samsung S22</h5>
+          <p class="card-text">6.1-inch Full HD+, Snapdragon 895,128GB</p>
+          <p>P45,990.00</p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
 
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/monitor.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ROG Swift PG329Q-W</h5>
+          <p class="card-text">QHD (2560 x 1440), Fast IPS, 175Hz, 1ms.</p>
+          <p>P48,350.00</p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/portablespeaker.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">JBL Pulse 4</h5>
+          <p class="card-text">IPX7 waterproof design, up to 12 hours on a single charged</p>
+          <p>P11,999.00</p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/mouse.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">MX Master 3S</h5>
+          <p class="card-text">200-8000 dpi (can be set in increments of 50 dpi)</p>
+          <p>P5,000.00</p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/Razer Keyboard.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Razer Death Stalker V2</h5>
+          <p class="card-text">Wireless Low-Profile Optical Gaming Keyboard </p>
+          <p>P9,799.00</p>
+          <a href="#" class="btn btn-secondary">Buy now</a>
+        </div>
+      </div>
+    </div>
+    
+  </section>            
+
+  <hr class="mx-5">
     <!-- Products -->
-    <section>
-      <div class="products grid-container">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-        <div class="grid-item">7</div>
-        <div class="grid-item">8</div>
-        <div class="grid-item">9</div>
-        <div class="grid-item">10</div>
-        <div class="grid-item">11</div>
-        <div class="grid-item">12</div>
+    <section class="mt-4">
+
+      <div class="">
+        <p class="h3 text-center">Products</p>
+      </div>
+
+      <div class="d-flex justify-content-center">
+      
+        <div class="products grid-container">
+
+          <div class="grid-item product-item">
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/mobile.webp" class="card-img-top mt-2 mb-5" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Samsung S22</h5>
+                <p class="card-text">6.1-inch Full HD+, Snapdragon 895,128GB</p>
+                <p>P45,990.00</p>
+                <a href="#" class="btn btn-secondary">Buy now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item product-item">
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/monitor.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ROG Swift PG329Q-W</h5>
+                <p class="card-text">QHD (2560 x 1440), Fast IPS, 175Hz, 1ms.</p>
+                <p>P48,350.00</p>
+                <a href="#" class="btn btn-secondary">Buy now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item product-item">
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/portablespeaker.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JBL Pulse 4</h5>
+                <p class="card-text">IPX7 waterproof design, up to 12 hours on a single charged</p>
+                <p>P11,999.00</p>
+                <a href="#" class="btn btn-secondary">Buy now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item product-item">
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/mouse.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MX Master 3S</h5>
+                <p class="card-text">200-8000 dpi (can be set in increments of 50 dpi)</p>
+                <p>P5,000.00</p>
+                <a href="#" class="btn btn-secondary">Buy now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item product-item">
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/Razer Keyboard.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Razer Death Stalker V2</h5>
+                <p class="card-text">Wireless Low-Profile Optical Gaming Keyboard </p>
+                <p>P9,799.00</p>
+                <a href="#" class="btn btn-secondary">Buy now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item product-item">
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/JBL_LIVE_FREE_2_Product image_Hero_Black_CES.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JBL Live Free 2 TWS</h5>
+                <p class="card-text">True wireless Noise Cancelling earbuds</p>
+                <p>P9,990.00</p>
+                <a href="#" class="btn btn-secondary">Buy now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item product-item">
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/1.JBL_Tune Flex_Product Image_Hero_Black.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JBL Tune Flex</h5>
+                <p class="card-text">True wireless Noise Cancelling earbuds</p>
+                <p>P6,499.00</p>
+                <a href="#" class="btn btn-secondary">Buy now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item product-item">
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/JBL_Clip3_Hero_Midnight-Black-1605x1605px.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JBL Clip 3</h5>
+                <p class="card-text">Portable Bluetooth Speaker,  IPX7 waterproof</p>
+                <p>P3,499.00</p>
+                <a href="#" class="btn btn-secondary">Buy now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item product-item">
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/JBL_PARTYBOX_ENCORE_ESSENTIAL_HERO_1605x1605px.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">JBL Partybox 110</h5>
+                <p class="card-text">True wireless Noise Cancelling earbuds</p>
+                <p>P16,999.00</p>
+                <a href="#" class="btn btn-secondary">Buy now</a>
+              </div>
+            </div>
+          </div>
+
+          
+
+
+        </div>
 
       </div>
     </section>
@@ -207,7 +374,7 @@
     <hr class="mt-3 mb-3">
     <!-- -->
     <section>
-      <div class="row align-items-center">
+      <div class="row align-items-center mt-">
 
         <!--There are 12 columns in total-->
         <div class="container text-center">
@@ -237,8 +404,23 @@
 
             </div>
 
-            <div class="col">
+            <div class="col text-center">
               <p class="h5">Contact Us</p>
+              <p>Phone:<br>
+              (02)1234-5678</p>
+
+              <p>Mobile:<br>
+              +63 9185712223</p>
+
+              <p>Email:<br>
+              robz_store@yahoo.com</p>
+
+              <p>Address:
+                Genato St. BF International<br>
+                Las Piñas City<br>
+                Philippines<br>
+                1740
+              </p>
               <div>
 
               </div>
